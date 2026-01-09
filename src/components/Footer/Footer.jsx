@@ -42,7 +42,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           {[
             { icon: <FaWhatsapp />, link: `https://wa.me/923348525661?text=${message}` },
-            { icon: <FaGithub />, link: "https://github.com/xxmansoor" },
+            { icon: <FaGithub />, link: "https://github.com/itsmansoor" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/muhammad-mansoor-521a082b6/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/muhammad_mansoor96/" },
 

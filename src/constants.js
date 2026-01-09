@@ -128,7 +128,7 @@ export const projects = [
     description:"Building Tourism Website with reactjs",
     image:Tourism_logo,
     tags: [ "React JS", "Tailwind CSS"],
-    github: "https://github.com/xxmansoor/toursim-website.git",
+    github: "https://github.com/itsmansoor/toursim-website.git",
   },
   {
     id: 1,
@@ -139,7 +139,7 @@ export const projects = [
       "React JS",
       "Tailwind css"
     ],
-    github: "https://github.com/xxmansoor/react-portfolio.git",
+    github: "https://github.com/itsmansoor/react-portfolio.git",
   },
 
   {
@@ -148,6 +148,6 @@ export const projects = [
     description:"Building Food delivery web app using reactjs and tailwind css",
     image: food,
     tags: ["React JS", "Taiwind CSS"],
-    github: "https://github.com/xxmansoor/react-food-delivery.git",
+    github: "https://github.com/itsmansoor/react-food-delivery.git",
   },
 ];

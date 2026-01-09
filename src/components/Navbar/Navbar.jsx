@@ -73,7 +73,7 @@ const Navbar = () => {
           {/* Desktop Social Icons */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://github.com/xxmansoor"
+              href="https://github.com/itsmansoor"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec]"
@@ -128,7 +128,7 @@ const Navbar = () => {
 
             <div className="flex space-x-6 pt-4">
               <a
-                href="https://github.com/xxmansoor"
+                href="https://github.com/itsmansoor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
