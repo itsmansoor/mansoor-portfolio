@@ -28,6 +28,7 @@ import Uni_logo from "./assets/education_logo/Uni_logo.png";
 import Tourism_logo from "./assets/work_logo/Tourism.png";
 import portfolio from "./assets/work_logo/portfolio.png";
 import food from "./assets/work_logo/food.png";
+import restaurant_reservation from "./assets/work_logo/restaurant_reservation.png"
 
 export const SkillsInfo = [
   {
@@ -143,11 +144,19 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "food delivery app",
     description:"Building Food delivery web app using reactjs and tailwind css",
     image: food,
     tags: ["React JS", "Taiwind CSS"],
     github: "https://github.com/itsmansoor/react-food-delivery.git",
   },
+  {
+    id: 3,
+    title: "restuarant reservation app",
+    description:"Building restuarent reservation web app using MERN",
+    image:restaurant_reservation,
+    tags: ["React JS", "Taiwind CSS", "Node js", "Express Js" ,"MongoDB"],
+    github: "https://github.com/itsmansoor/restaurant_reservation.git",
+  }
 ];
