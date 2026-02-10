@@ -16,6 +16,7 @@ import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import wordpressLogo from "./assets/tech_logo/wordpress.png";
 
 // Experience Section Logo's
 import encoderbytes from "./assets/company_logo/encoderbytes.png";
@@ -42,6 +43,7 @@ export const SkillsInfo = [
       { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
+      { name: "WordPress", logo: wordpressLogo }
     ],
   },
   {

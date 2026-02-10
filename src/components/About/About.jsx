@@ -3,7 +3,6 @@ import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
 import profileImage from "../../assets/profile2.png";
 
-
 const About = () => {
   return (
     <section
@@ -11,7 +10,6 @@ const About = () => {
       className="w-full min-h-screen flex items-center py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-[7vw] lg:px-[15vw] font-sans"
     >
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 w-full">
-        
         {/* Left Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
@@ -26,12 +24,12 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-               "Full Stack Developer",
-               "MERN Stack Engineer",
-               "Next.js Developer",
-               "WordPress Developer",
-               "Programmer",
-               "Coder",
+                "Full Stack Developer",
+                "MERN Stack Engineer",
+                "Next.js Developer",
+                "WordPress Developer",
+                "Programmer",
+                "Coder",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -44,15 +42,16 @@ const About = () => {
           </h3>
 
           <p className="mt-6 text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
-            I am a full-stack web developer and BS IT student with a strong
-            interest in building modern web applications. I am currently
-            working with the MERN stack (MongoDB, Express.js, React, Node.js)
-            and continuously improving my skills through learning and
-            hands-on practice.
+            I am a full-stack web developer and BS IT student with a passion for
+            building modern, scalable, and user-focused web applications. I work
+            with the MERN stack (MongoDB, Express.js, React, Node.js), Next.js,
+            and WordPress, and I continuously enhance my skills through hands-on
+            projects and learning the latest web technologies.
           </p>
 
           <a
-            href="/Muhammad_Mansoor_CV.pdf"download
+            href="/Muhammad_Mansoor_CV.pdf"
+            download
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-8 px-7 sm:px-8 py-3 text-sm sm:text-base md:text-lg font-bold text-white rounded-full transition-transform duration-300 hover:scale-105"
