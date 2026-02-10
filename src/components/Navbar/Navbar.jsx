@@ -51,7 +51,6 @@ const Navbar = () => {
             Mansoor
             <span className="text-[#8245ec]">&gt;</span>
           </div>
-
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-8 text-gray-300">
             {menuItems.map((item) => (
