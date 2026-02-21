@@ -50,7 +50,7 @@ const About = () => {
           </p>
 
           <a
-            href="/Muhammad_Mansoor_CV.pdf"
+            href="/Muhammad_Mansoor.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
