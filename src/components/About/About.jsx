@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
 import profileImage from "../../assets/profile3.jpeg";
@@ -27,7 +27,6 @@ const About = () => {
                 "Full Stack Developer",
                 "MERN Stack Engineer",
                 "Next.js Developer",
-                "WordPress Developer",
                 "Programmer",
                 "Coder",
               ]}
@@ -45,7 +44,7 @@ const About = () => {
             I am a full-stack web developer and BS IT student with a passion for
             building modern, scalable, and user-focused web applications. I work
             with the MERN stack (MongoDB, Express.js, React, Node.js), Next.js,
-            and WordPress, and I continuously enhance my skills through hands-on
+            and I continuously enhance my skills through hands-on
             projects and learning the latest web technologies.
           </p>
 

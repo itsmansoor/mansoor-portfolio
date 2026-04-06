@@ -1,5 +1,5 @@
 // components/BlurBlob.jsx
-import React from "react";
+// import React from "react";
 import PropTypes from "prop-types";
 
 const BlurBlob = ({ position = { top: "50%", left: "50%" }, size = { width: "200px", height: "200px" }, color = "#8245ec", opacity = 0.2 }) => {
