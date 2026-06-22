@@ -2,6 +2,7 @@
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
+import pythonLogo from "./assets/tech_logo/python.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
@@ -16,6 +17,10 @@ import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import MySQL_Workbench from "./assets/tech_logo/Mysql-workBench.jpg";
+import FastApi from "./assets/tech_logo/fastapi.png";
+import Django from "./assets/tech_logo/django-logo.png";
+import MYSQL from "./assets/tech_logo/Mysql.png";
 
 
 // Experience Section Logo's
@@ -30,6 +35,7 @@ import Tourism_logo from "./assets/work_logo/Tourism.png";
 import portfolio from "./assets/work_logo/portfolio.png";
 import food from "./assets/work_logo/food.png";
 import restaurant_reservation from "./assets/work_logo/restaurant_reservation.png"
+import student_managment from "./assets/work_logo/student-managment.png"
 
 export const SkillsInfo = [
   {
@@ -50,13 +56,18 @@ export const SkillsInfo = [
     skills: [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
+      {name: "FastAPI",logo: FastApi},
+      {name: "Django",logo:Django },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
+      { name: "MYSQL", logo: MYSQL },
     ],
   },
   {
     title: "Languages",
-    skills: [{ name: "JavaScript", logo: javascriptLogo }],
+    skills: [
+      { name: "JavaScript", logo: javascriptLogo },
+      {name: "Python", logo:pythonLogo}],
   },
   {
     title: "Tools",
@@ -67,6 +78,7 @@ export const SkillsInfo = [
       { name: "Postman", logo: postmanLogo },
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
+      { name: "MySQL Workbench", logo: MySQL_Workbench },
     ],
   },
 ];
@@ -158,6 +170,14 @@ export const projects = [
     description:"Building restuarent reservation web app using MERN",
     image:restaurant_reservation,
     tags: ["React JS", "Taiwind CSS", "Node js", "Express Js" ,"MongoDB"],
+    github: "https://github.com/itsmansoor/restaurant_reservation.git",
+  },
+  {
+    id:4,
+    title: "Student Management System",
+    description:"Developed a full-stack Student Management System using FastAPI, React, and MySQL.",
+    image:student_managment,
+    tags: ["React.js","FastAPI","MySQL"],
     github: "https://github.com/itsmansoor/restaurant_reservation.git",
   }
 ];

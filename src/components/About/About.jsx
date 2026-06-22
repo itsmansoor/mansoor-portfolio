@@ -25,10 +25,11 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 "Full Stack Developer",
-                "MERN Stack Engineer",
+                "MERN Stack Developer",
                 "Next.js Developer",
-                "Programmer",
-                "Coder",
+                "FastAPI Developer",
+                "Python Developer",
+                "Django Developer",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,11 +42,11 @@ const About = () => {
           </h3>
 
           <p className="mt-6 text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
-            I am a full-stack web developer and BS IT student with a passion for
-            building modern, scalable, and user-focused web applications. I work
-            with the MERN stack (MongoDB, Express.js, React, Node.js), Next.js,
-            and I continuously enhance my skills through hands-on
-            projects and learning the latest web technologies.
+            I am an Information Technology student awaiting my final semester
+            results, passionate about Full-Stack Web Development. I build modern
+            web applications using React.js, Next.js, FastAPI, Django, MySQL,
+            and MongoDB. I enjoy creating practical solutions, learning new
+            technologies, and improving my software development skills.
           </p>
 
           <a
