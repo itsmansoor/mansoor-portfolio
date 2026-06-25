@@ -138,26 +138,30 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Tourism Website",
-    description:"Building Tourism Website with reactjs",
+    title: "Tourism AI Website",
+    description:"Building Tourism Website with MERN + AI ",
     image:Tourism_logo,
-    tags: [ "React JS", "Tailwind CSS"],
-    github: "https://github.com/itsmansoor/toursim-website.git",
+    tags: ["React JS", "Taiwind CSS", "Node js", "Express Js" ,"MongoDB","AI"],
+    github: "https://github.com/itsmansoor/Tourism-Website-With-AI-Integration",
   },
-  {
-    id: 1,
-    title: "portfolio",
-    description:"building portfolio using react js and tailwind CSS",
-    image:portfolio,
-    tags: [
-      "React JS",
-      "Tailwind css"
-    ],
-    github: "https://github.com/itsmansoor/react-portfolio.git",
+   {
+    id:1,
+    title: "Student Management System",
+    description:"Developed a full-stack Student Management System using FastAPI, React, and MySQL.",
+    image:student_managment,
+    tags: ["React.js","FastAPI","MySQL"],
+    github: "https://github.com/itsmansoor/restaurant_reservation.git",
   },
-
-  {
+    {
     id: 2,
+    title: "restuarant reservation app",
+    description:"Building restuarent reservation web app using MERN",
+    image:restaurant_reservation,
+    tags: ["React JS", "Taiwind CSS", "Node js", "Express Js" ,"MongoDB"],
+    github: "https://github.com/itsmansoor/restaurant_reservation.git",
+  },
+   {
+    id: 3,
     title: "food delivery app",
     description:"Building Food delivery web app using reactjs and tailwind css",
     image: food,
@@ -165,19 +169,11 @@ export const projects = [
     github: "https://github.com/itsmansoor/react-food-delivery.git",
   },
   {
-    id: 3,
-    title: "restuarant reservation app",
-    description:"Building restuarent reservation web app using MERN",
-    image:restaurant_reservation,
-    tags: ["React JS", "Taiwind CSS", "Node js", "Express Js" ,"MongoDB"],
-    github: "https://github.com/itsmansoor/restaurant_reservation.git",
+    id: 4,
+    title: "portfolio",
+    description:"building portfolio using react js and tailwind CSS",
+    image:portfolio,
+    tags: [ "React JS","Tailwind css" ],
+    github: "https://github.com/itsmansoor/react-portfolio.git",
   },
-  {
-    id:4,
-    title: "Student Management System",
-    description:"Developed a full-stack Student Management System using FastAPI, React, and MySQL.",
-    image:student_managment,
-    tags: ["React.js","FastAPI","MySQL"],
-    github: "https://github.com/itsmansoor/restaurant_reservation.git",
-  }
 ];
